@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<script src="../function.js"></script>
+	<style>
+		#jhs{
+				height: auto;
+				width: 700px;
+				margin: 0 auto;
+			}
+			.Box{
+				width: 100%;
+				height: auto;
+				margin: 50px 0;
+				
+				
+			}
+			p{
+				width: 120px;
+				height: 20px;
+				line-height: 20px;
+				font-size: 14px;
+				color: #494747;
+				float: right;
+			}
+			p>span{
+				color: #0078E6;
+				font-size: 16px;
+			}
+			#ins{
+				width: 220px;
+				height: 50px;
+				float: left;
+			}
+			#ins button{
+				width: 100px;
+				line-height: 30px;
+				font-size: 18px;
+				border-radius: 4px;
+				border: none;
+				cursor: pointer;
+			}
+			textarea{
+				width: 100%;
+				height: 200px;
+				resize: none;
+				box-sizing: border-box;
+				padding: 10px;
+			}
+	</style>
+</head>
+<body>
+	<div id="jhs">
+		<textarea name="" maxlength="100" value="" placeholder="请留下你的足迹...">
+		
+		</textarea><br />
+		<p>还可以输入<span>120</span>字</p>
+		<div id="ins">
+			<button>发表</button>
+			<button>重置</button>	
+		</div>
+		
+		<div class="Box">
+			
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	let text1=document.querySelector('textarea')
+	let but=document.querySelectorAll('button')
+	let box=document.querySelector('.Box')
+	let span=document.querySelector('p>span')
+	let name=document.querySelector('.name');
+	let max=120;
+	// 快捷键
+    text1.onkeyup=function(){
+    	span.innerHTML=`${max - this.value.length}`
+    	text1.onkeydown=function(e){
+    		if(e.shiftKey && e.keyCode==13){
+    			fn();
+    		}
+    	}
+    }
+
+    // 发表按钮
+	but[0].onclick=fn;
+	function fn(){
+		let val=text1.value;
+		span.innerHTML=`${max}`;
+		let div=document.createElement('div')
+		div.style.cssText=`
+               width:700px;
+               height:100px;
+               margin:10px auto;
+               box-sizing: border-box;
+			   padding: 5px 10px;
+               background:#eee;
+               border-radius:5px;
+               text-align: left;
+		`
+		div.innerHTML=val+name;
+        box.prependChild(div);
+		text1.value='';
+	}
+	//重置
+	but[1].onclick=function(){
+		text1.value='';
+	}
+</script>
