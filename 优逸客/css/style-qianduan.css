@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 360082 */
+  src: url('http://at.alicdn.com/t/font_zsu8kn4ocqvyrpb9.eot');
+  src: url('http://at.alicdn.com/t/font_zsu8kn4ocqvyrpb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_zsu8kn4ocqvyrpb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_zsu8kn4ocqvyrpb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_zsu8kn4ocqvyrpb9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #f5f6fa;
+}
+/* header */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+header img{
+	display: block;
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.youyike{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 7.5rem;
+	height: 2.8rem;
+}
+/* menu */
+.menu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	color: #494747;
+	line-height: 0.82rem;
+}
+.menu a{
+	color: #494747;
+}
+/* 导航 */
+nav{
+	width: 93.6%;
+	height: 2.26rem;
+	background: #fff;
+	margin: 0 auto;
+	border-left: 0.24rem solid #f5f6fa;
+	border-right: 0.24rem solid #f5f6fa;
+}
+nav main{
+	width: 86.6096%;
+	height: 100%;
+	margin: 0 auto;
+	/* background: #fff; */
+}
+nav main img{
+	display: block;
+	width: 1.21rem;
+	height: 1.21rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+}
+.mianfeishixue{
+	font-size: 0.24rem;
+	text-align: center;
+}
+.mianfei{
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	margin-top: 0.2rem;
+}
+/* 概述 */
+.gaishu{
+	width: 100%;
+	/* height: 4.09rem; */
+	border-left: 0.24rem solid #f5f6fa;
+	border-right: 0.24rem solid #f5f6fa;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #fff;
+	/* border-bottom: 0.2rem solid #f5f6fa; */
+}
+.gaishu-1{
+	width: 85%;
+	height: 0.24rem;
+	border-left: 0.04rem solid #01b5ff;
+	padding-left: 0.2rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.32rem;
+	margin-left: 0.29rem;
+	/* padding-top: 0.32rem; */
+}
+.xuxian{
+	width: 85.3333%;
+	border-bottom: 0.01rem dashed #999999;
+	margin: 0 auto;
+	margin-top: 0.13rem;
+}
+.jieshao{
+	width: 85.3333%;
+	/* height: 3.1rem; */
+	margin: 0 auto;
+	margin-top: 0.35rem;
+	/* background: red; */
+}
+.jieshao p span{
+	color: #01b5ff;
+}
+.xinzi-pic{
+	width: 85.3333%;
+	/* height: 3.1rem; */
+	margin: 0 auto;
+	margin-top: 0.35rem;
+}
+.xinzi-pic img{
+	display: block;
+	width: 6.08rem;
+	height: 4.11rem;
+	margin: 0 auto;
+}
+.xinzi-font{
+	font-size: 0.25rem;
+	text-align: center;
+	padding-bottom: 0.34rem;
+}
+.wangzhan{
+	margin-bottom: 0.15rem;
+}
+.wangzhan img{
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+	margin-right: 0.2rem;
+}
+.wangzhan-wenzi span{
+	font-size: 0.24rem;
+	color: #01b5ff;
+	/* display: block; */
+}
+.wangzhan-wenzi P{
+	font-size: 0.16rem;
+	color: #000;
+	display: block;
+}
+.xinxi{
+	width: 100%;
+	height: 0.63rem;
+	/* background: red; */
+	/* padding-top: 0.5rem; */
+}
+.dian{
+	width: 0.11rem;
+	height: 0.11rem;
+	border: 0.04rem solid #94e0ff;
+	background: #01b5ff;
+	border-radius: 50% 50%;
+	margin-left: 0.19rem;
+	margin-top: 0.18rem;
+	float: left;
+}
+.xingming{
+	font-size: 0.16rem;
+	margin-right: 0.43rem;
+	color: #666666;
+	margin-top: 0.1rem;
+	margin-left: 0.19rem;
+	float: left;
+}
+.RMB{
+	font-size: 0.16rem;
+	color: #ffa201;
+	margin-top: 0.1rem;
+	float: left;
+	margin-right: 0.43rem;
+}
+.fuli{
+	font-size: 0.16rem;
+	color: #666666;
+	float: left;
+	margin-top: 0.1rem;
+}
+.kecheng{
+	width: 85.3333%;
+	/* height: 3.1rem; */
+	margin: 0 auto;
+	margin-top: 0.35rem;	
+}
+.kecheng img{
+	display: block;
+	width: 6.42rem;
+	height: 3.72rem;
+
+}
+footer{
+	width: 100%;
+	background: #f5f6fa;
+}
+.beian{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	padding-top: 0.2rem;
+}

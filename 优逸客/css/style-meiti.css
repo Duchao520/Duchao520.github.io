@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 360082 */
+  src: url('http://at.alicdn.com/t/font_6qp32iut089kvs4i.eot');
+  src: url('http://at.alicdn.com/t/font_6qp32iut089kvs4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_6qp32iut089kvs4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_6qp32iut089kvs4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_6qp32iut089kvs4i.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* header */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+header img{
+	display: block;
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.youyike{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 7.5rem;
+	height: 2.8rem;
+}
+/* menu */
+.menu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	color: #494747;
+	line-height: 0.82rem;
+}
+.menu a{
+	color: #494747;
+}
+/* H5 */
+.H5{
+	width: 100%;
+	/* height: 3.36rem; */
+	/* background: red; */
+	border-bottom: 0.03rem solid #f5f6fa;
+}
+.H5-top{
+	width: 85.3333%;
+	/* height: 2.46rem; */
+	border-bottom: 0.01rem solid #d2d2d2;
+	margin: 0 auto;
+	/* background: blue; */
+}
+.H5-top-biaoti{
+	font-size: 0.23rem;
+	color: #000;
+	padding-top: 0.22rem;
+}
+.pic-wenzi{
+	width: 100%;
+	height: 1.9rem;
+	/* background: yellow; */
+	margin-top: 0.15rem;
+	padding-bottom: 0.19rem;
+	/* border-bottom: 0.01rem solid #d2d2d2; */
+}
+.pic{
+	width: 2.08rem;
+	height: 100%;
+	/* background: greenyellow; */
+	float: left;
+}
+.pic-1{
+	width: 1.93rem;
+	height: 1.45rem;
+	border: 0.01rem solid #01b5ff;
+	box-sizing: border-box;
+	margin-left: 0.15rem;
+}
+.pic-2{
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #c8c8c8;
+	float: left;
+	margin-top: 0.11rem;
+}
+.wenzi{
+	width: 4.3rem;
+	height: 1.44rem;
+	font-size: 0.23rem;
+	color: #494747;
+	float: right;
+	padding-top: 0.11rem;
+}
+.H5-bottom{
+	width: 85.3333%;
+	height: 0.6rem;
+	/* background: skyblue; */
+	margin: 0 auto;
+	border-bottom: 1px solid #d2d2d2;
+	margin-bottom: 0.28rem;
+}
+.riqi{
+	width: 33.3333%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	font-size: 0.2rem;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #747474;
+}
+/* 跳转 */
+.tiaozhuan{
+	width: 100%;
+	height: 0.5rem;
+	/* background: yellowgreen; */
+	padding-top: 0.25rem;
+}
+.fenye{
+	width: 7.02rem;
+	height: 0.32rem;
+	/* background: skyblue; */
+	margin: 0 auto;
+}
+.fenye li{
+	float: left;
+	margin-right: 0.12rem;
+}
+.fenye .jiantou-left{
+	width: 0.58rem;
+	height: 0.31rem;
+	border-radius: 0.11rem 0.11rem;
+	border: 0.01rem solid #9b9b9b;
+	box-sizing: border-box;
+}
+.jiantou-left-1{
+	width: 0.5rem;
+	height: 0.25rem;
+	border-radius: 0.09rem 0.09rem;
+	border: 0.01rem solid #333333;
+	margin: 0.01rem auto;
+	box-sizing: border-box;
+}
+.jiantou-left-1 .iconfont{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.28rem;
+	color: #333333;
+	float: left;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.fenye-1{
+	width: 0.31rem;
+	height: 0.31rem;
+	border-radius: 50% 50%;
+	border: 0.01rem solid #9b9b9b;
+	box-sizing: border-box;
+}
+.fenye-1-1{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50% 50%;
+	border: 0.01rem solid #333333;
+	margin: 0.01rem auto;
+	box-sizing: border-box;
+}
+.fenye-1-1 .iconfont{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.1rem;
+	color: #333333;
+	float: left;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.shenlue{
+	font-size: 0.02rem;
+	color: #333333;
+	float: left;
+}
+.tiaozhuandao{
+	float: left;
+	font-size: 0.14rem;
+	text-align: center;
+	color: #333333;
+	margin-left: 0.1rem;
+}
+footer{
+	width: 100%;
+	background: #f5f6fa;
+}
+.beian{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	padding-top: 0.2rem;
+}

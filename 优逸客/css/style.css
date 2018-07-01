@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 360082 */
+  src: url('http://at.alicdn.com/t/font_dxvglnxiuihehfr.eot');
+  src: url('http://at.alicdn.com/t/font_dxvglnxiuihehfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_dxvglnxiuihehfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_dxvglnxiuihehfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_dxvglnxiuihehfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* header */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+header img{
+	display: block;
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.youyike{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 7.5rem;
+	height: 2.8rem;
+}
+/* 导航 */
+nav{
+	width: 100%;
+	height: 4.81rem;
+	background: #f5f6fa;
+}
+.nav-1{
+	width: 25%;
+	height: 2.25rem;
+	/* background: #f5f6fa; */
+	float: left;
+}
+.nav-1-pic{
+	width: 1.55rem;
+	height: 1.25rem;
+	background: #fff;
+	margin: 0.26rem auto;
+	padding-top: 0.3rem;
+	border-radius: 0.28rem;
+	margin-bottom: 0.13rem;
+}
+.nav-1-pic-1{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -0.01rem -0.01rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-2{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -1.03rem -0.02rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-3{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -0.01rem -1.12rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-4{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -1.03rem -1.11rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-5{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat 0rem -2.21rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-6{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -1.03rem -2.21rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-7{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -0.01rem -3.3rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.nav-1-pic-8{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url('../img/shouye6.png') no-repeat -0.96rem -3.3rem;
+	background-size: 2rem 8.26rem;
+	margin: 0 auto;
+}
+.kecheng{
+	width: 100%;
+	font-size: 0.2rem;
+	color: #000;
+	text-align: center;
+}
+/* 服务体系 */
+.fuwu{
+	width: 100%;
+	height: 4.23rem;
+	/* background: greenyellow; */
+	border-left: 0.01rem solid #e8e8e8;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwu-biaoti{
+	width: 100%;
+	height: 0.65rem;
+	/* background: red; */
+	font-size: 0.22rem;
+	color: #0377bc;
+	text-align: center;
+	line-height: 0.65rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.tijianzhuxue{
+	width: 100%;
+	height: 2.19rem;
+	/* background: green; */
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.tijian{
+	width: 50%;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.wenzi{
+	width: 1.6rem;
+	height: 2.19rem;
+	/* background: skyblue; */
+	margin-left: 0.15rem;
+	float: left;
+}
+.wenzi-1{
+	font-size: 0.23rem;
+	color: #000;
+	margin-top: 0.38rem;
+}
+.wenzi-2{
+	font-size: 0.18rem;
+	color: #999999;
+	margin-top: 0.18rem;
+}
+.tijian-pic{
+	width: 1.32rem;
+	height: 1.32rem;
+	margin-left: 0.22rem;
+	margin-top: 0.38rem;
+	background: url('../img/shouye6.png') no-repeat -0.03rem -4.41rem;
+	background-size: 2rem 8.26rem;
+	float: left;
+}
+.tijian-pic2{
+	width: 1.49rem;
+	height: 1.33rem;
+	margin-left: 0.22rem;
+	margin-top: 0.38rem;
+	background: url('../img/shouye6.png') no-repeat -0.03rem -5.95rem;
+	background-size: 2rem 8.26rem;
+	float: left;
+}
+.shitingdongtairenzhen{
+	width: 100%;
+	height: 1.39rem;
+	/* background: blue; */
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.shiting{
+	width: 33.3333%;
+	height: 100%;
+	/* background: skyblue; */
+	float: left;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.shiting-pic{
+	width: 0.6rem;
+	height: 0.61rem;
+	margin-top: 0.39rem;
+	margin-left: 0.11rem;
+	float: left;
+	background: url('../img/shouye6.png') no-repeat -0.03rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+.shiting-weizi{
+	width: 1.68rem;
+	height: 100%;
+	/* background: #fff; */
+	margin-left: 0.07rem;
+	float: left;
+}
+.shiting-weizi-1{
+	margin-top: 0.35rem;
+	font-size: 0.24rem;
+	color: #000;
+}
+.shiting-weizi-2{
+	margin-top: 0.17rem;
+	font-size: 0.18rem;
+	color: #999999;
+}
+.shiting-pic2{
+	width: 0.6rem;
+	height: 0.61rem;
+	margin-top: 0.39rem;
+	margin-left: 0.11rem;
+	float: left;
+	background: url('../img/shouye6.png') no-repeat -0.72rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+.shiting-pic3{
+	width: 0.58rem;
+	height: 0.61rem;
+	margin-top: 0.39rem;
+	margin-left: 0.11rem;
+	float: left;
+	background: url('../img/shouye6.png') no-repeat -1.39rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+/* footer */
+footer{
+	width: 100%;
+	height: 1.4rem;
+	background: #f5f6fa;
+}
+.chaxun{
+	width: 33.3333%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+}
+.xiaoqu{
+	font-size: 0.24rem;
+	margin-top: 0.43rem;
+	text-align: center;
+}
+.xiaoqu .iconfont{
+	font-size: 0.31rem;
+	color: #666666;
+}
+.boda{
+	width: 33.3333%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+}
+.boda-1{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 0.2rem;
+	background: #ff7e00;
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+	border-radius: 0.07rem 0.07rem;
+}
+.boda-1 .iconfont{
+	font-size: 0.34rem;
+}

@@ -1,0 +1,16 @@
+.char{
+	width: 53px;
+	height: 77px;
+	/* background: #e0e0e0; */
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	background: url('') no-repeat center center;
+	background-size: 53px 77px;
+	font-size: 0;
+}

@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 360082 */
+  src: url('http://at.alicdn.com/t/font_llld5ojcdlwyiudi.eot');
+  src: url('http://at.alicdn.com/t/font_llld5ojcdlwyiudi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_llld5ojcdlwyiudi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_llld5ojcdlwyiudi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_llld5ojcdlwyiudi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* header */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+header img{
+	display: block;
+	width: 0.72rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.youyike{
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 7.5rem;
+	height: 2.8rem;
+}
+/* menu */
+.menu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	color: #494747;
+	line-height: 0.82rem;
+}
+.menu a{
+	color: #494747;
+}
+/* 课程讲师 */
+.UIjiangshi{
+	width: 100%;
+	/* height: 1.0rem; */
+	background: #f5f6fa;
+}
+.fenlei{
+	width: 7.03rem;
+	height: 0.8rem;
+	/* background: red; */
+	margin: 0 auto;
+	/* margin-bottom: 0.09rem; */
+	border: 0.02rem solid #01b5ff;
+	box-sizing: border-box;
+	border-radius: 0.07rem;
+	display: flex;
+	flex-direction: row;
+}
+.fenlei-UI{
+	width: 33.3333%;
+	height: 100%;
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.fenlei-UI:nth-child(1){
+	background: #01b5ff;
+	color: #fff;
+}
+.fenlei-UI:nth-child(1) a{
+	color: #fff;
+}
+.sanjiao{
+	width: 0;
+	height: 0;
+	border-top: 0.12rem solid #01b5ff;
+	border-bottom: 0.12rem solid transparent;
+	border-left: 0.12rem solid transparent;
+	border-right: 0.12rem solid transparent;
+	margin-left: 1.3rem;
+}
+/* 学员信息 */
+.xueyuan{
+	width: 100%;
+	border-left: 0.24rem solid #f5f6fa;
+	border-right: 0.24rem solid #f5f6fa;
+	box-sizing: border-box;
+}
+.xueyuan-1{
+	width: 100%;
+	height: 2.7rem;
+	border-bottom: 0.1rem solid #f5f6fa;
+	box-sizing: border-box;
+}
+.xueyuan-1-left{
+	width: 2.3rem;
+	height: 2.3rem;
+	margin: 0.2rem;
+	background: #c8c8c8;
+	float: left;
+}
+.xueyuan-1-left img{
+	width: 2.3rem;
+	height: 2.3rem;
+}
+.xueyuan-1-right{
+	width: 4.3rem;
+	/* height: 1.45rem; */
+	/* background: blue; */
+	float: left;
+	margin-top: 0.05rem;
+}
+.xingming{
+	font-size: 0.23rem;
+	color: #000;
+	margin-top: 0.19rem;
+	margin-left: 0.12rem;
+	border-bottom: 0.02rem dashed #444444;
+	width: 1.4rem;
+	padding-bottom: 0.04rem;
+}
+.UI{
+	font-size: 0.11rem;
+	color: #444444;
+}
+.yuexin{
+	font-size: 0.23rem;
+	color: #01b5ff;
+	margin-left: 0.12rem;
+	padding-top: 0.03rem;
+}
+.gongsi{
+	font-size: 0.23rem;
+	color: #666666;
+	margin-left: 0.12rem;
+	margin-top: 0.1rem;
+	width: 3.35rem;
+}
+.more{
+	font-size: 0.24rem;
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.14rem;  
+}
+.more a{
+	color: #ff9300;
+}
+.tiaozhuan{
+	width: 100%;
+	height: 0.5rem;
+	/* background: yellowgreen; */
+	padding-top: 0.25rem;
+}
+.fenye{
+	width: 7.02rem;
+	height: 0.32rem;
+	/* background: skyblue; */
+	margin: 0 auto;
+}
+.fenye li{
+	float: left;
+	margin-right: 0.12rem;
+}
+.fenye .jiantou-left{
+	width: 0.58rem;
+	height: 0.31rem;
+	border-radius: 0.11rem 0.11rem;
+	border: 0.01rem solid #9b9b9b;
+	box-sizing: border-box;
+}
+.jiantou-left-1{
+	width: 0.5rem;
+	height: 0.25rem;
+	border-radius: 0.09rem 0.09rem;
+	border: 0.01rem solid #333333;
+	margin: 0.01rem auto;
+	box-sizing: border-box;
+}
+.jiantou-left-1 .iconfont{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.28rem;
+	color: #333333;
+	float: left;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.fenye-1{
+	width: 0.31rem;
+	height: 0.31rem;
+	border-radius: 50% 50%;
+	border: 0.01rem solid #9b9b9b;
+	box-sizing: border-box;
+}
+.fenye-1-1{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50% 50%;
+	border: 0.01rem solid #333333;
+	margin: 0.01rem auto;
+	box-sizing: border-box;
+}
+.fenye-1-1 .iconfont{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.1rem;
+	color: #333333;
+	float: left;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.shenlue{
+	font-size: 0.02rem;
+	color: #333333;
+	float: left;
+}
+.tiaozhuandao{
+	float: left;
+	font-size: 0.14rem;
+	text-align: center;
+	color: #333333;
+	margin-left: 0.1rem;
+}
+footer{
+	width: 100%;
+	background: #f5f6fa;
+}
+.beian{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	padding-top: 0.2rem;
+}
