@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.page{
+    width:100%;
+    height: 9.58rem;
+    /*background: url("../img/screen.png") no-repeat,url("../img/screen2.png") no-repeat,url("../img/yuel.png") no-repeat,-webkit-linear-gradient(top,#50ADE8,#63C5F0,#72D6F6);*/
+    background-size: 7.5rem;
+    background-position: 100% 100%;
+    position: relative;
+}
+.site{
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.31rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.aqi{
+    width: 1.52rem;
+    height: 0.88rem;
+    /*background: #F1AB62;*/
+    border-radius: 0.1rem;
+    font-size: 0.25rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #fff;
+}
+.current{
+    width: 100%;
+    height: 1.14rem;
+    font-size: 1.14rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.18rem;
+}
+.current_condition{
+    width: 100%;
+    height: 1.1rem;
+    font-size: 0.47rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.1rem;
+}
+.todayTomorrow{
+    width: 100%;
+    height: 2.04rem;
+    background: #fff;
+    border-bottom: 1px solid #E4E4E4;
+}
+.today{
+    width: 2.7rem;
+    height: 1rem;
+    padding: 0.52rem 0.38rem;
+    /*background: red;*/
+    font-size: 0.25rem;
+    float: left;
+}
+.tomorrow{
+    width: 2.7rem;
+    height: 1rem;
+    padding: 0.52rem 0.38rem;
+    /*background: red;*/
+    font-size: 0.25rem;
+    float: right;
+}
+.todayR,.tomorrowR{
+    float: right;
+}
+.today>li:first-child,.tomorrow>li:first-child{
+    margin-bottom: 0.25rem;
+}
+.today>li:last-child,.tomorrow>li:last-child{
+    margin-top: 0.25rem;
+}
+.dat_weather_icon_id,.tomorrow_weather_icon_id{
+    float: right;
+}
+.space{
+    width: 100%;
+    height: 0.2rem;
+    background: #F5F5F5;
+}
+/*24小时天气*/
+.moment_temperature{
+    height: 2.7rem;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    overflow-x: scroll;
+}
+.moment_temperature>li{
+    width: 1.42rem;
+    height: 100%;
+    /*background: red;*/
+    font-size: 0.21rem;
+}
+.moment_temperature>li>span{
+    display:block;
+    width: 1.42rem;
+    text-align: center;
+}
+.list_top{
+    margin-top: 0.6rem;
+}
+.moment_temperature>li>.list_middle{
+    margin-left: 0.47rem;
+    margin-top: 0.35rem;
+    width: 0.48rem;
+    height: 0.48rem;
+    background-size: 0.48rem 0.48rem;
+}
+.list_bottom{
+    margin-top: 0.35rem;
+}
+/*半月天气*/
+.month_list{
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    overflow-x: scroll;
+}
+.month_list>li{
+    width: 1.51rem;
+    font-size: 0.21rem;
+}
+.month_list>li>span{
+    display:block;
+    width: 1.51rem;
+    text-align: center;
+    margin-top: 0.35rem;
+}
+.month_list>li>span:last-child{
+    margin-bottom: 0.35rem;
+}
+.month_list>li>.month_list_weather_icon_id{
+    margin-left: 0.52rem;
+    margin-top: 0.35rem;
+    width: 0.48rem;
+    height: 0.48rem;
+    background-size: 0.48rem 0.48rem;
+}
+/*city*/
+.city{
+    height: 8.0rem;
+    background: #0f0f0f;
+    opacity: 0.6;
+    position: absolute;
+    display: none;
+    overflow-y: scroll;
+}
+.yunnan{
+    width: 7.5rem;
+    font-size: 0.25rem;
+    color: #fff;
+    height:0.3rem;
+}
+.yunnan>li{
+    /*width: 0.6rem;*/
+    height: 0.3rem;
+    /*background: #1b6d85;*/
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+}
+.yunnan>li:first-child{
+    width: 7.5rem;
+    text-align: center;
+    font-size: 0.4rem;
+    margin-bottom: 0.3rem;
+}

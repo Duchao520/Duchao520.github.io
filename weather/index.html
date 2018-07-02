@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+            "width=device-width initial-scale=1.0
+	minmum-scale=1.0 maxmum=1.0 user-scalable=no">
+    <title>Title</title>
+</head>
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <section class="page">
+        <div class="site"></div>
+        <div class="city">
+            <ul class="yunnan">
+                <li>云南</li>
+                <li>个旧</li>
+                <li>临沧</li>
+                <li>丽江</li>
+                <li>保山</li>
+                <li>安宁</li>
+                <li>宣威</li>
+                <li>开远</li>
+                <li>弥勒</li>
+                <li>昆明</li>
+                <li>昭通</li>
+                <li>普洱</li>
+                <li>景洪</li>
+                <li>曲靖</li>
+                <li>玉溪</li>
+                <li>瑞丽</li>
+                <li>腾冲</li>
+                <li>蒙自</li>
+                <li>香格里拉</li>
+            </ul>
+            <ul class="yunnan">
+                <li>云南</li>
+                <li>个旧</li>
+                <li>临沧</li>
+                <li>丽江</li>
+                <li>保山</li>
+                <li>安宁</li>
+                <li>宣威</li>
+                <li>开远</li>
+                <li>弥勒</li>
+                <li>昆明</li>
+                <li>昭通</li>
+                <li>普洱</li>
+                <li>景洪</li>
+                <li>曲靖</li>
+                <li>玉溪</li>
+                <li>瑞丽</li>
+                <li>腾冲</li>
+                <li>蒙自</li>
+                <li>香格里拉</li>
+            </ul>
+            <ul class="yunnan">
+                <li>云南</li>
+                <li>个旧</li>
+                <li>临沧</li>
+                <li>丽江</li>
+                <li>保山</li>
+                <li>安宁</li>
+                <li>宣威</li>
+                <li>开远</li>
+                <li>弥勒</li>
+                <li>昆明</li>
+                <li>昭通</li>
+                <li>普洱</li>
+                <li>景洪</li>
+                <li>曲靖</li>
+                <li>玉溪</li>
+                <li>瑞丽</li>
+                <li>腾冲</li>
+                <li>蒙自</li>
+                <li>香格里拉</li>
+            </ul>
+            <ul class="yunnan">
+                <li>云南</li>
+                <li>个旧</li>
+                <li>临沧</li>
+                <li>丽江</li>
+                <li>保山</li>
+                <li>安宁</li>
+                <li>宣威</li>
+                <li>开远</li>
+                <li>弥勒</li>
+                <li>昆明</li>
+                <li>昭通</li>
+                <li>普洱</li>
+                <li>景洪</li>
+                <li>曲靖</li>
+                <li>玉溪</li>
+                <li>瑞丽</li>
+                <li>腾冲</li>
+                <li>蒙自</li>
+                <li>香格里拉</li>
+            </ul>
+            <ul class="yunnan">
+                <li>云南</li>
+                <li>个旧</li>
+                <li>临沧</li>
+                <li>丽江</li>
+                <li>保山</li>
+                <li>安宁</li>
+                <li>宣威</li>
+                <li>开远</li>
+                <li>弥勒</li>
+                <li>昆明</li>
+                <li>昭通</li>
+                <li>普洱</li>
+                <li>景洪</li>
+                <li>曲靖</li>
+                <li>玉溪</li>
+                <li>瑞丽</li>
+                <li>腾冲</li>
+                <li>蒙自</li>
+                <li>香格里拉</li>
+            </ul>
+        </div>
+        <div class="aqi"></div>
+        <div class="current"><span class="current_temperature"></span>°</div>
+        <div class="current_condition"></div>
+    </section>
+    <section class="todayTomorrow">
+        <ul class="today">
+            <li>
+                <span>今天</span>
+                <span class="todayR"><span class="high-low"></span>°C</span>
+            </li>
+            <li>
+                <span><span class="day"></span>转<span class="night"></span></span>
+                <img src="" alt="" class="dat_weather_icon_id">
+            </li>
+        </ul>
+        <ul class="tomorrow">
+            <li>
+                <span>明天</span>
+                <span class="tomorrowR"><span class="high-low"></span>°C</span>
+            </li>
+            <li>
+                <span><span class="tomorrowDay"></span></span>
+                <img src="" alt="" class="tomorrow_weather_icon_id">
+            </li>
+        </ul>
+    </section>
+    <section class="space"></section>
+    <ul class="moment_temperature"></ul>
+    <section class="space"></section>
+    <ul class="month_list"></ul>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        $('.site').click(function(){
+            $('.city').toggle(500)
+        })
+        $('.yunnan>li').click(function () {
+            let newCity=$(this).text()
+            console.log(newCity)
+            return newCity
+        })
+    $.ajax({
+        url:'https://www.toutiao.com/stream/widget/local_weather/city/',
+        dataType:'jsonp',
+        success:function (obj) {
+//            console.log(obj)
+            choice(obj)
+        }
+    })
+        choice=function (obj) {
+            let city=obj.data;
+            console.log(city)
+        }
+    $.ajax({
+        url:'https://www.toutiao.com/stream/widget/local_weather/data/?city=杭州',
+        dataType:'jsonp',
+        success:function (obj) {
+            console.log(obj)
+            render(obj)
+        }
+    })
+    render=function (obj) {
+        let weather=obj.data.weather
+        $('.site').html(weather.city_name);
+        $('.aqi').html(weather.aqi);
+        aqi(weather.aqi);
+        let time=weather.update_time.slice(11,19).replace(':','').replace(':','')
+        hour(time);
+        $('.current_temperature').html(weather.current_temperature);
+        $('.current_condition').html(weather.current_condition);
+        $('.todayR>.high-low').html(`${weather.dat_high_temperature}/${weather.dat_low_temperature}`);
+        $('.day').html(weather.day_condition);
+        $('.night').html(weather.night_condition);
+        $('.dat_weather_icon_id').attr('src',`img/${weather.dat_weather_icon_id}.png`);
+        $('.tomorrowR>.high-low').html(`${weather.tomorrow_high_temperature}/${weather.tomorrow_low_temperature}`);
+        $('.tomorrowDay').html(weather.tomorrow_condition);
+        $('.tomorrow_weather_icon_id').attr('src',`img/${weather.tomorrow_weather_icon_id}.png`);
+        weather.hourly_forecast.forEach((element,index)=>{
+            let str=`<li>
+            <span class="list_top">${element.hour}:00</span>
+            <span class="list_middle" style="background-image:url('img/${element.weather_icon_id}.png')"></span>
+            <span class="list_bottom">${element.temperature}°</span>
+        </li>`;
+            $('.moment_temperature').append(str);
+        })
+        weather.forecast_list.forEach((element,index)=>{
+            let date=element.date.slice(5,10).replace('-','/');
+            let str=`<li>
+            <span class="month_list_date">${date}</span>
+            <span class="month_list_condition">${element.condition}</span>
+            <span class="month_list_weather_icon_id" style="background-image:url('img/${element.weather_icon_id}.png')"></span>
+            <span class="month_list_high_temperature">${element.high_temperature}°</span>
+            <span class="month_list_wind_direction">${element.wind_direction}</span>
+        </li>`
+            $('.month_list').append(str);
+        })
+    }
+    /*空气污染指数aqi判断*/
+    aqi=function (aqi) {
+        if(aqi>=0&&aqi<=50){
+            $('.aqi').css('background','#00FF00')
+        }else if(aqi>=51&&aqi<=100){
+            $('.aqi').css('background','#FFFF00')
+        }else if(aqi>=101&&aqi<=150){
+            $('.aqi').css('background','#FF9900')
+        }else if(aqi>=151&&aqi<=200){
+            $('.aqi').css('background','#FF0000')
+        }else if(aqi>=201&&aqi<=300){
+            $('.aqi').css('background','#800080')
+        }else if(aqi>300){
+            $('.aqi').css('background','#800000')
+        }else{
+            alert('error')
+        }
+    }
+    /*时间判断*/
+    hour=function (time) {
+        let str='url("img/screen.png") no-repeat,url("img/screen2.png") no-repeat,url("img/yuel.png") no-repeat,'
+        str1=str+"-webkit-linear-gradient(top,#212121,#393939,#606060)"
+        if(time>=000000&&time<040000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#212121,#393939,#606060)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }else if(time>=040000&&time<080000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#f0f300,#fff838,#fffa7b)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }else if(time>=080000&&time<120000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#7eff00,#9fff41,#bbff78)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }else if(time>=120000&&time<160000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#50ADE8,#63C5F0,#72D6F6)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }else if(time>=160000&&time<200000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#ff9600,#ffae3a,#ffc97c)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }else if(time>=200000&&time<240000){
+            $('.page').css({'background':str+"-webkit-linear-gradient(top,#003f86,#0057b9,#4686cd)",'background-size':'7.5rem','background-position':'100% 100%'})
+        }
+    }
+    });
+</script>
