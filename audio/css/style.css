@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+.box{
+	width:1022px;
+	height: 670px;
+	margin:20px auto;
+}
+.top{
+	width:100%;
+	height: 50px;
+	background: #c62f2f;
+}
+.mid{
+	width:100%;
+	height: 571px;
+	background: #fafafb;
+}
+.bot{
+	width: 100%;
+	height: 48px;
+	border-top:1px solid #e3e2e4;
+	background: #f6f6f8;
+}
+.pic{
+	width:455px;
+	height: 482px;
+	float:left;
+}
+.music-pic{
+	width: 270px;
+	height: 270px;
+	border:44px solid #232324;
+	padding:10px;
+	background: #121214;
+	margin: 54px auto;
+	/*box-sizing: border-box;*/
+	border-radius: 50%;
+}
+.music-pic>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.right{
+	width:393px;
+	height: 482px;
+	float:left;	
+	padding:32px 0 32px 66px;
+}
+.song{
+	width:100%;
+	height: 95px;
+	margin-bottom: 30px;
+	line-height: 32px;
+}
+.lyric{
+	width:100%;
+	height: 357px;
+	line-height: 32px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.music{
+	font-weight: bold;
+	color:#232324;
+	font-size: 20px;
+}
+.singer{
+	font-size: 12px;
+}
+.singer>a{
+	color:#2959a1;
+}
+.kongjian{
+	width: 142px;
+	height: 48px;
+	margin-left: 30px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+.kongjian>li{
+	width:30px;
+	height: 30px;
+	background:#e83c3c;
+	border-radius: 50%;
+	margin-top: 9px;
+}
+.kongjian>li:nth-child(2){
+	width:34px;
+	height: 34px;
+	margin-top: 7px;
+}
+.icon-shangyishou,.icon-xiayishou{
+	font-size: 12px;
+	color: #fafafb;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.pause{
+	font-size: 20px;
+	color:#fafafb;
+	text-align: center;
+	line-height: 34px;
+	cursor: pointer;
+}
+.now{
+	width: auto;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	margin-left: 30px;
+	float: left;
+	margin-right: 12px;
+	color:#434344;
+	font-size: 12px;
+}
+.musictime{
+	width:auto;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	margin-left: 9px;
+	float: left;
+	color:#434344;
+	font-size: 12px;
+}
+.scrollbar-box{
+	width: 436px;
+	height: 4px;
+	background: #e6e6e8;
+	margin-top: 22px;
+	float: left;
+	border-radius: 2px;
+}
+.scrollbar{
+	width: 0;
+	height: 100%;
+	background: #e83c3c;
+	border-radius: 2px;
+}
