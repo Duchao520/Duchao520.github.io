@@ -1,18 +1,508 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的主页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_747524_bkh3iyg01lb.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<a href="apple">apple</a>
-<a href="audio">audio</a>
-<a href="call">call</a>
-<a href="优逸客">优逸客</a>
-<a href="天猫">天猫</a>
-<a href="小米商城">小米商城</a>
-<a href="打字游戏">打字游戏</a>
-<a href="留言板">留言板</a>
-<a href="weather">weather</a>
+<div class="back"></div>
+<header class="floor" id="HOME">
+    <div class="container">
+        <div class="nav">
+            <h1 class="logo"><span>P</span>REFACE</h1>
+            <div class="menus">
+                <img src="img/menu.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="#HOME" data-hover="HOME" class="active">HOME<span></span></a></li>
+                <li><a href="#ABOUT" data-hover="ABOUT">ABOUT<span></span></a></li>
+                <li><a href="#SERVICE" data-hover="SERVICES">SERVICES<span></span></a></li>
+                <li><a href="#EXPERIENCE" data-hover="EXPERIENCE">EXPERIENCE<span></span></a></li>
+                <li><a href="#PROJECT" data-hover="PROJECTS">PROJECTS<span></span></a></li>
+                <li><a href="#CONTACT" data-hover="CONTACT">CONTACT<span></span></a></li>
+            </ul>
+        </div>
+        <!--个人简介-->
+        <div class="banner-info row">
+            <div class="col-sm-7 header-right">
+                <h1>Hi !<span></span></h1>
+                <h6>Front-End-Developer</h6>
+                <ul class="address">
+
+                    <li>
+                        <ul class="address-text">
+                            <li><b>NAME</b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li>杜超</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>Y.M.D</b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li>1996/03/02</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>PHONE </b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li>13934410514</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>ADDRESS </b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li>云南省昆明市穿金路云南印象</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>E-MAIL </b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href=""> 13934410514@163.com</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="address-text">
+                            <li><b>Git Hub </b></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="https://github.com/Duchao520">https://github.com/Duchao520</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-sm-5 header-left">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="clearfix"> </div>
+
+        </div>
+    </div>
+</header>
+<!--about-->
+<section class="floor" id="ABOUT">
+    <div class="container">
+        <ul class="ul about">
+            <li class="col-xs-5 imgPic">
+            </li>
+            <li class="col-xs-1 circle">
+                <div>
+                    <span class="nows"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+            <li class="col-xs-11 col-md-6 cons">
+                <ul>
+                    <li>
+                        <h2>自我 <span>介绍</span></h2>
+                        <p>
+                            我本人性格热情开朗，待人友好，为人诚实谦虚。对待工作认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。
+                            熟练掌握了前端必备的HTML/H5、CSS/CSS3、JS基础语言，拥有良好的编码规范，并熟悉开发流程以及目前开发过程中的一些的主流框架VUE、
+                            Bootstrap、jQuery等,且有过PHP后台开发经验,对前后交互都有一定的了解,对Angular、react、Node有也一定的项目经验。
+                            之前主要做的是PC端的开发，对响应式界面有所涉及，移动端的开发也有过开发经验，在工作中能够独立完成项目任务，自主学习能力较强，喜欢独立思考问题,对新的框架能够自己学习，快速上手。
+                        </p>
+                        <div class="btn work">My Work</div>
+                        <div class="btn hire">Hire Me</div>
+                    </li>
+                    <li>
+                        <h2>自我 <span>介绍</span></h2>
+                        <p>
+                            我本人性格热情开朗，待人友好，为人诚实谦虚。对待工作认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。
+                            熟练掌握了前端必备的HTML/H5、CSS/CSS3、JS基础语言，拥有良好的编码规范，并熟悉开发流程以及目前开发过程中的一些的主流框架VUE、
+                            Bootstrap、jQuery等,且有过PHP后台开发经验,对前后交互都有一定的了解,对Angular、react、Node有也一定的项目经验。
+                            之前主要做的是PC端的开发，对响应式界面有所涉及，移动端的开发也有过开发经验，在工作中能够独立完成项目任务，自主学习能力较强，喜欢独立思考问题,对新的框架能够自己学习，快速上手。
+                        </p>
+                        <div class="btn work">My Work</div>
+                        <div class="btn hire">Hire Me</div>
+                    </li>
+                    <li>
+                        <h2>自我 <span>介绍</span></h2>
+                        <p>
+                            我本人性格热情开朗，待人友好，为人诚实谦虚。对待工作认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。
+                            熟练掌握了前端必备的HTML/H5、CSS/CSS3、JS基础语言，拥有良好的编码规范，并熟悉开发流程以及目前开发过程中的一些的主流框架VUE、
+                            Bootstrap、jQuery等,且有过PHP后台开发经验,对前后交互都有一定的了解,对Angular、react、Node有也一定的项目经验。
+                            之前主要做的是PC端的开发，对响应式界面有所涉及，移动端的开发也有过开发经验，在工作中能够独立完成项目任务，自主学习能力较强，喜欢独立思考问题,对新的框架能够自己学习，快速上手。
+                        </p>
+                        <div class="btn work">My Work</div>
+                        <div class="btn hire">Hire Me</div>
+                    </li>
+                </ul>
+            </li>
+            <li class="col-xs-12 col-md-0 img">
+                <img src="img/about-pic.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</section>
+<!--技能掌握-->
+<section class="service floor" id="SERVICE">
+    <div class="container">
+        <div class="title">
+            <h1>WHAT I DO<span></span></h1>
+            <p><span>MY </span>SERVICES</p>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-adobephotoshop"></i>
+                </span>
+                <p>photoshop</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-html5"></i>
+                </span>
+                <p>html5</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-css"></i>
+                </span>
+                <p>css3</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-socialjavascript"></i>
+                </span>
+                <p>javascript</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-jquery"></i>
+                </span>
+                <p>jQuery</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-ajax"></i>
+                </span>
+                <p>Ajax</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-php"></i>
+                </span>
+                <p>php</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-node-js"></i>
+                </span>
+                <p>Node.js</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-bootstrap"></i>
+                </span>
+                <p>Bootstrap</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-vuejs"></i>
+                </span>
+                <p>Vue.js</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-react"></i>
+                </span>
+                <p>React.js</p>
+            </div>
+            <div class="ability col-xs-4 col-md-3 col-lg-2">
+                <span>
+                    <i class="iconfont icon-angular"></i>
+                </span>
+                <p>Angular.js</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--工作经历-->
+<section class="experiences floor" id="EXPERIENCE">
+    <div class="container">
+        <div class="title">
+            <h1>WHAT I DID<span></span></h1>
+            <p><span>MY </span>EXPERIENCE</p>
+            <div></div>
+        </div>
+        <div class="row experience">
+            <div class="time col-md-3 col-md-offset-1">
+                <h5>
+                    2017.2
+                    <span></span>
+                </h5>
+            </div>
+            <div class="left col-xs-2 col-md-1">
+                <div class="line">
+                    <div class="icon iconfont icon-gongzuo"></div>
+                </div>
+            </div>
+            <div class="right col-xs-10 col-md-7">
+                <h5>
+                    2017.2
+                    <span></span>
+                </h5>
+                <div>
+                    <h4>COMPANY NAME</h4>
+                    <p>Lorem ipsum dolor sit amet.Itaque earum rerum
+                        hic tenetur a sapiente delectus, ut aut reiciendis
+                        voluptatibus maiores alias consequatur
+                        aut perferendis doloribus </p>
+                </div>
+            </div>
+        </div>
+        <div class="row experience">
+            <div class="time col-md-3 col-md-offset-1">
+                <h5>
+                    2017.8
+                    <span></span>
+                </h5>
+            </div>
+            <div class="left col-xs-2 col-md-1">
+                <div class="line">
+                    <div class="icon iconfont icon-gongzuo" style="background: #EB5424"></div>
+                </div>
+            </div>
+            <div class="right col-xs-10 col-md-7">
+                <h5>
+                    2017.8
+                    <span></span>
+                </h5>
+                <div>
+                    <h4>COMPANY NAME</h4>
+                    <p>Lorem ipsum dolor sit amet.Itaque earum rerum
+                        hic tenetur a sapiente delectus, ut aut reiciendis
+                        voluptatibus maiores alias consequatur
+                        aut perferendis doloribus </p>
+                </div>
+            </div>
+        </div>
+        <div class="row experience">
+            <div class="time col-md-3 col-md-offset-1">
+                <h5>
+                    2018.9
+                    <span></span>
+                </h5>
+            </div>
+            <div class="left col-xs-2 col-md-1">
+                <div class="line" style="height: 100px">
+                </div>
+            </div>
+            <div class="right col-xs-10 col-md-7">
+                <h5>
+                    2018.9
+                    <span></span>
+                </h5>
+            </div>
+        </div>
+    </div>
+</section>
+<!--项目经验-->
+<section class="project floor" id="PROJECT">
+    <div class="container">
+        <div class="title">
+            <h1>MY WORKS<span></span></h1>
+            <p><span>MY </span>PROJECTS</p>
+            <div></div>
+        </div>
+        <ul class="row ProjectMenu">
+            <li class="col-xs-12" cname="all">
+                <h4>ALL</h4>
+            </li>
+            <li class="col-xs-4 webPro" cname="webSite">
+                <h5>WEB SITE</h5>
+            </li>
+            <li class="col-xs-4 subPro" cname="subroutine">
+                <h5>Subroutine</h5>
+            </li>
+            <li class="col-xs-4 appPro" cname="app">
+                <h5>APP</h5>
+            </li>
+        </ul>
+        <ul class="row Items">
+            <li class="col-xs-6 col-md-4 col-lg-3 webSite" cname="webSite"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 webSite" cname="webSite"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 webSite" cname="webSite"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 webSite" cname="webSite"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 subroutine" cname="subroutine"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 subroutine" cname="subroutine"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 subroutine" cname="subroutine"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 subroutine" cname="subroutine"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 subroutine" cname="subroutine"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 app" cname="app"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 app" cname="app"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+            <li class="col-xs-6 col-md-4 col-lg-3 app" cname="app"><a href="">
+                <img src="img/pic.jpg" alt="">
+            </a></li>
+        </ul>
+        <ul class="rongqi" style="display: none"></ul>
+    </div>
+</section>
+<!--联系方式-->
+<section class="contact floor" id="CONTACT">
+    <div class="container">
+        <div class="title">
+            <h1>CONTACT ME<span></span></h1>
+            <p><span>GET </span>IN TOUCH WITH ME</p>
+            <div></div>
+        </div>
+        <ul class="ways row">
+            <li class="col-xs-12">
+                <div>
+                    <p>
+                        <span class="iconfont icon-youxiang"></span>
+                    </p>
+                    <p>Contact By Email</p>
+                    <p>Email: <span>13934410514@163.com</span></p>
+                </div>
+            </li>
+            <li class="col-xs-12">
+                <div>
+                    <p>
+                        <span class="iconfont icon-shouji1"></span>
+                    </p>
+                    <p>Contact By Phone</p>
+                    <p>Phone: <span>13934410514</span></p>
+                </div>
+            </li>
+            <li class="col-xs-12">
+                <div>
+                    <p>
+                        <span class="iconfont icon-icon4"></span>
+                    </p>
+                    <p>Contact By WeChat</p>
+                    <p>WeChat: <span>loveTcc99</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
 </body>
 </html>
+<script>
+    $(document).ready(function () {
+        /*回到顶部*/
+        $('.back').on('click',function () {
+            $(document.documentElement).animate({
+                scrollTop:0
+            },800)
+        })
+        /*nav切换*/
+        $('.menus').on('click',function () {
+            $('.menu').slideToggle(800)
+        })
+        /*楼层跳转*/
+        var arr=[];
+        $('.floor').each(function (index,element) {
+            var Tops=$(this).offset().top;
+            arr.push(Tops);
+        })
+        $('.menu>li').on('click',function () {
+            var idx=$(this).index();
+            var sTop=arr[idx];
+            $(this).addClass('active').siblings('li').removeClass('active');
+            $(document.documentElement).animate({
+                scrollTop:sTop
+            },500)
+        })
+        /*ABOUT*/
+        let t=setInterval(fn,3000)
+        let num=0;
+        $('.circle>div>span').on('click',function () {
+            let nowNum=$('.circle>div>span').index(this);
+            num=nowNum-1;
+            fn();
+        })
+        $('.cons').on('mouseenter',function () {
+            clearInterval(t)
+        }).on('mouseleave',function () {
+            t=setInterval(fn,3000);
+        })
+        function fn() {
+            num++;
+            var moveTop=-parseInt($('.cons>ul>li').css('height'))-parseInt($('.cons>ul>li').css('margin-bottom'));
+            var topS=moveTop*num;
+            if(num>$('.circle>div>span').length-1){
+                num=0;
+                topS=0;
+            }
+            $('.circle>div>span').eq(num).addClass('nows').siblings('span').removeClass('nows');
+            $('.cons>ul').animate(
+                {top:topS},500
+            )
+        }
+        $('.work').on('click',function () {
+            let top=$('.project').offset().top
+            $(document.documentElement).animate({
+                scrollTop:top
+            },800)
+        })
+        $('.hire').on('click',function () {
+            let top=$('.contact').offset().top
+            console.log(top)
+            $(document.documentElement).animate({
+            },800)
+        })
+        /*项目分类*/
+        var original=$('.Items').html();
+        $('.ProjectMenu>li').on('click',cut)
+        var index;
+        function cut() {
+            if(index==$('.ProjectMenu>li').index(this)) {
+                return
+            }else{
+                index=$('.ProjectMenu>li').index(this);
+                if(index>0){
+                    $(this).children().addClass('now').parent().siblings('li').children().removeClass('now')
+                }else{
+                    $(this).siblings('li').children().removeClass('now')
+                }
+                $('.rongqi').html(original)
+                var str='';
+                var cname=$(this).attr("cname");
+                $('.rongqi>li').each(function (index,element) {
+                    if(cname=='all'){
+                        return str=original
+                    }else if($(this).attr('cname')==cname){
+                        var con=$(this).html()
+                        str+=`<li class="col-xs-6 col-md-4 col-lg-3">${con}</li>`
+                    }
+                })
+
+                $('.Items').slideUp(500,function () {
+                    $(this).html(str);
+                }).slideDown(500)
+            }
+        }
+    })
+
+</script>
