@@ -206,7 +206,7 @@ body {
       padding-top: 60px;
       padding-bottom: 60px;
       overflow: hidden;
-      height: 440px;
+      height: 550px;
       position: relative; }
       body section .container .about .cons ul {
         width: 100%;
@@ -215,7 +215,7 @@ body {
         top: 0;
         left: 0; }
         body section .container .about .cons ul li {
-          margin-bottom: 200px; }
+          margin-bottom: 250px; }
           body section .container .about .cons ul li h2 span {
             font-weight: bold; }
           body section .container .about .cons ul li p {
@@ -240,6 +240,11 @@ body {
       width: 100%;
       height: 100%;
       display: block; }
+    @media screen and (min-width: 415px) {
+      body section .container .about .cons {
+        height: 370px; }
+        body section .container .about .cons ul li {
+          margin-bottom: 100px; } }
     @media screen and (min-width: 992px) {
       body section .container .about .img {
         display: none; }
@@ -253,7 +258,8 @@ body {
         -ms-background-size: cover;
         min-height: 400px; }
       body section .container .about .cons {
-        padding-bottom: 0; } }
+        padding-bottom: 0;
+        height: 400px; } }
   body .title {
     text-align: center;
     width: 200px;
@@ -421,7 +427,7 @@ body {
       display: none; }
     body .experiences .left .line {
       width: 1px;
-      height: 340px;
+      height: 350px;
       background: #CCCCCC;
       margin: 0 auto;
       position: relative; }
@@ -438,7 +444,8 @@ body {
         border-radius: 50%;
         color: #FFFFFF; }
     body .experiences .right {
-      padding-top: 40px;
+      padding-top: 20px;
+      padding-bottom: 30px;
       overflow: hidden; }
       body .experiences .right h5 {
         background: #1B242F;
